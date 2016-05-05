@@ -1,4 +1,4 @@
-package com.leonhart.aopplayground;
+package com.leonhart.aopplayground.app;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

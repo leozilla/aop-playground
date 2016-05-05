@@ -3,7 +3,7 @@ package com.leonhart.aopplayground.aspects;
 public aspect Trace {
 
     pointcut tracedCall():
-            call(void com.leonhart.aopplayground.HelloWorld.getMessage());
+            call(void com.leonhart.aopplayground.api.Messenger.getMessage());
 
     before(): tracedCall() {
         System.out.println("Entering: " + thisJoinPoint);
