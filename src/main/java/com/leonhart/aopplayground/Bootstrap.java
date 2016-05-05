@@ -10,7 +10,6 @@ public class Bootstrap {
                 new ClassPathXmlApplicationContext("Beans.xml");
 
         HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
-
         obj.getMessage();
     }
 }
